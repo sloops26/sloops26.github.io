@@ -1,0 +1,91 @@
+.loader {
+    height: 113px;
+}
+
+header {
+    font-family: "Shrikhand", cursive;
+    background-color: white;
+    box-shadow: 0 0 0.5rem rgb(0 0 0 /25%);
+    text-align: center;
+    height: 63px;
+    padding: 0.3rem;
+    margin: 0;
+    position: relative;
+
+}
+
+.logo {
+    margin-top: 14px;
+}
+
+.city {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 17px;
+    background-color: #EAEAEA;
+    text-align: center;
+    padding: 0.3rem;
+    height: 50px;
+}
+
+.city i {
+    color: #353535;
+    width: 12px;
+    height: 16px;
+}
+
+.lieu {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.75px;
+    color: #353535;
+}
+
+/**exploreer*/
+
+.explorer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.explorer h2 {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    height: 68px;
+    margin-top: 50px;
+    width: 75%;
+}
+
+.explorer p {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 300;
+    line-height: 21.09px;
+    color: #353535;
+    height: 46px;
+    width: 80%;
+}
+
+.explorer button {
+    background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+    box-shadow: 0px 4px 10px 0px #00000040;
+    border-radius: 25px;
+    margin-top: 20px;
+    height: 50px;
+    width: 218px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    line-height: 18.75px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    margin-left: 28px;
+}
+
+.explorer button:hover {
+    transform: scale (1.02);
+    opacity: 0.9;
+}

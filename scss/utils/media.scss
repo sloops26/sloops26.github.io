@@ -1,0 +1,209 @@
+
+@media screen and (min-width:768px) {
+    
+    .explorer h2 {
+
+    }
+    .explorer p {
+
+    }
+    .titre {
+        text-align :center;
+    }
+    .section-restaurants {
+        box-sizing: border-box;
+    }
+
+    .restaurants-container {
+        flex-wrap: wrap;
+        gap: 50px;
+        margin-bottom: 30px;
+    }
+
+    .restaurant-card {
+
+
+    }
+
+    .restaurant-titre {
+        align-self: center;
+        margin-top: 26px;
+    margin-bottom: 54px
+    }
+
+    .tuto {
+        
+
+    }
+
+    .bouton {
+        width: 70%;
+    align-self: center;
+}
+    
+
+    .footer {
+        display: flex;
+        flex-flow: row-reverse;
+        height: 114px;
+        padding: 0;
+    }
+
+    .logo-blanc {
+        margin: 32px 25px 0 0;
+        padding-bottom: 10px;
+    }
+
+    .footer-bloc {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        padding-right: 100px;
+        margin-left: 10px;
+    }
+
+    .avec-icon {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        margin-top: 30px;
+    }
+
+    .bloc {
+        gap: 15px;
+    }
+
+    .sans-icon {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin-top: 30px;
+    }
+
+
+}
+/****MEDIA ORDI*/
+
+@media screen and (min-width:1024px) {
+    header {
+        height: 96px;
+    }
+    .logo {
+        margin-top: 20px;
+    }
+    .explorer h2 {
+        font-size: 40px;
+        margin-top: 90px;
+    }
+    .explorer p {
+        margin-top: -30px;
+    }
+.explorer button {
+    margin-top: -15px;
+    margin-bottom: 10px;
+    margin-top: none;
+}
+.conteneur {
+    height: 228px;
+}
+.titre{
+    text-align: start;
+    margin-left: 230px;
+}
+.tuto{
+    display:flex;
+    align-items: center;
+    gap: 25px;
+    margin:10px;
+    flex-direction: row;
+    margin-left: 230px;
+
+}
+
+
+
+.bouton {
+    width: 335px;
+    margin-top: 0px;
+}
+    .section-restaurants {
+        box-sizing: border-box;
+        padding: 0px 180px;
+        margin-left: 80px;
+    }
+
+    .restaurants-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 60px 120px;
+        margin-bottom: 50px;
+    }
+
+    .restaurant-card {
+    height: 320px;
+        width: calc(40% - 50px);
+        max-width: none;
+
+    }
+
+    .restaurant-titre {
+        margin-left: 10px;
+        align-self: self-start;
+    }
+.restaurant-img {
+    margin-bottom: 16px;
+    height: 231px;
+}
+.card-title {
+    margin: 0;
+    margin-bottom: 10px;
+
+}
+.card-subtitle {
+    margin: 0;
+}
+
+    .bouton {}
+
+    .footer {
+        display: flex;
+        flex-flow: row-reverse;
+        height: 114px;
+        padding: 0;
+    }
+
+    .logo-blanc {
+        margin: 32px 25px 0 0;
+        padding-bottom: 10px;
+    }
+
+    .footer-bloc {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        padding-right: 100px;
+    }
+
+    .avec-icon {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        margin-top: 30px;
+    }
+
+    .bloc {
+        gap: 15px;
+    }
+
+    .sans-icon {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin-top: 30px;
+    }
+
+}
