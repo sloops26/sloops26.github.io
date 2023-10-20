@@ -179,6 +179,7 @@
     padding: 15px;
 }
 
+
 @keyframes appearance-card {
     0% {
         opacity: 0;
@@ -236,7 +237,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
     overflow: hidden;
     background-color: var(--bg-color-green);
 
@@ -247,30 +247,25 @@
     cursor: pointer;
 }
 
-:hover.card-click i {
-    animation: check 1s;
-}
-
 .checkicon {
     color: white;
     opacity: 1;
     font-size: 25px;
 
 }
-
-
+:hover .checkicon {
+    animation: check 0.8s ;
+  
+}
 @keyframes check {
     0% {
         transform: rotate(0deg);
     }
-
-    100% {
+    to {   
         transform: rotate(360deg);
     }
+
 }
-
-
-
 
 /*footer*/
 
