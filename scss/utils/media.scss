@@ -46,3 +46,47 @@
     }
   }
   
+  /*MEDIA PAGE RESTAURANT */
+
+  /*media tablette*/
+@media screen and (min-width:768px) {
+  .menu {
+      width: 90%;
+
+  }
+}
+
+/* media ordinateur*/
+@media screen and (min-width: 1024px) {
+  .header-icon {
+      top: 30px;
+  }
+
+  .resto-img {
+      height: 383px;
+  }
+
+  .resto-titre {
+      width: auto;
+      align-self: center;
+  }
+
+  .resto-article {
+      max-width: 1025px;
+      width: 100%;
+  }
+
+  .resto-icon {
+      position: absolute;
+      right: 326px;
+      top: 39px;
+  }
+
+  .resto .card {
+      width: 97%;
+  }
+
+  .menu {
+      width: 80%;
+  }
+}

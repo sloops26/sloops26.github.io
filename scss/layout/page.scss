@@ -127,10 +127,19 @@
     transform: translateX(15px);
     animation: appearance-card 3s;
     animation-fill-mode: both;
-
-
-
 }
+.card:hover .checkicon {
+    animation: check 0.8s 0.1s forwards;
+  
+}
+
+.card:hover .card-click {
+    transition: all 0.7s ease-in-out;
+    cursor: pointer;
+    width: 30px;
+    padding: 15px;
+}
+
 
 .child1 {
     animation-delay: 200ms;
@@ -173,11 +182,6 @@
 }
 
 
-/*appearance-card 3s forwards;*/
-.card:hover .card-click {
-    width: 30px;
-    padding: 15px;
-}
 
 
 @keyframes appearance-card {
@@ -242,10 +246,6 @@
 
 }
 
-:hover .card-click {
-    transition: all 0.7s ease-in-out;
-    cursor: pointer;
-}
 
 .checkicon {
     color: white;
@@ -253,10 +253,7 @@
     font-size: 25px;
 
 }
-:hover .checkicon {
-    animation: check 0.8s ;
-  
-}
+
 @keyframes check {
     0% {
         transform: rotate(0deg);
@@ -273,45 +270,3 @@
     position: relative;
 }
 
-/*media tablette*/
-@media screen and (min-width:768px) {
-    .menu {
-        width: 90%;
-
-    }
-}
-
-/* media ordinateur*/
-@media screen and (min-width: 1024px) {
-    .header-icon {
-        top: 30px;
-    }
-
-    .resto-img {
-        height: 383px;
-    }
-
-    .resto-titre {
-        width: auto;
-        align-self: center;
-    }
-
-    .resto-article {
-        max-width: 1025px;
-        width: 100%;
-    }
-
-    .resto-icon {
-        position: absolute;
-        right: 326px;
-        top: 39px;
-    }
-
-    .resto .card {
-        width: 97%;
-    }
-
-    .menu {
-        width: 80%;
-    }
-}
